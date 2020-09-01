@@ -9,13 +9,14 @@ body
 {
   height:1200px;
   font-size: 18px;
-  font-family: sans-serif;
-  color: #5D6063;
+  font-family: poppins;
+  color: #EFC88B;
+  background-color: #363946;
 }
 
 a:link, a:visited
 {
-  color: #5D6063;
+  color: #EFC88B;
   text-decoration: none;
 }
 
@@ -32,7 +33,7 @@ a:hover
 
   width: 100%;
   padding: 15px;
-  background: #D6E9FE;
+  background: #FFF;
 }
 
 /*makes the list horizonal*/
@@ -91,4 +92,26 @@ a:hover
 .features-menu li:last-of-type
 {
   border-bottom: none;
+}
+
+.content
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.content li
+{
+  list-style: none;
+  color: #EFC88B;
+}
+
+#content1
+{
+  font-size: 20px;
+  padding-bottom: 30px;
 }
