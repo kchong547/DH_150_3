@@ -102,7 +102,8 @@ a:hover
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  /*border: 5px solid #555;*/
+  margin-bottom: 150px;
+  border: 5px solid #555;
 }
 
 .content li
@@ -126,9 +127,8 @@ a:hover
 .animated
 {
   position: absolute;
-  top: 300px;
+  top: 260px;
 
-  /*border: 5px solid #555;*/
+  border: 5px solid #555;
   z-index: -1;
-
 }
