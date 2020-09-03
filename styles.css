@@ -103,7 +103,7 @@ a:hover
   text-align: center;
   min-height: 100vh;
   margin-bottom: 150px;
-  border: 5px solid #555;
+  /*border: 5px solid #555;*/
 }
 
 .content li
@@ -129,6 +129,6 @@ a:hover
   position: absolute;
   top: 260px;
 
-  border: 5px solid #555;
+  /*border: 5px solid #555;*/
   z-index: -1;
 }
