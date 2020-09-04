@@ -6,6 +6,8 @@
   font-family: poppins;
   font-size: 18px;
   --transition-speed: 600ms;
+  --text-color: #EFC88B;
+  --background: #FFF
 }
 
 body
@@ -32,16 +34,16 @@ body::-webkit-scrollbar-thumb
 
 main
 {
-  margin-left: 5rem;
+  margin-left: 3rem;
 }
 
 .navbar
 {
   bottom: 0;
-  width: 5rem;
+  width: 3rem;
   height: 100vh;
   position: fixed;
-  background-color: #FFF;
+  background-color: var(--background);
   transition: width 200ms ease;
 }
 
@@ -122,13 +124,13 @@ main
 
 .nav-link svg
 {
-  min-width: 2rem;
-  margin: 0 1.5rem;
+  min-width: 1.5rem;
+  margin: 0 .75rem;
 }
 
 .navbar:hover
 {
-  width: 16rem;
+  width: 10rem;
 }
 
 .navbar:hover .link-text
