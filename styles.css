@@ -260,13 +260,22 @@ a:hover
   top: 270px;
 
   /*border: 5px solid #555;*/
+  width:96vw;
+  height:80vh;
   z-index: -1;
+}
+
+.book img
+{
+  width:100%;
+  height:auto;
+  max-height:100%;
 }
 
 .stars
 {
   position: absolute;
-  top: 0px;
+  top: -10px;
   width:96vw;
   height:80vh;
   z-index: -1;
