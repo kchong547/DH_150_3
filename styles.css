@@ -146,7 +146,7 @@ main
 
 a:link, a:visited
 {
-  color: #E3BE83;
+  color: #D5573B;
   text-decoration: none;
 }
 
@@ -275,7 +275,7 @@ a:hover
 .stars
 {
   position: absolute;
-  top: -10px;
+  top: -5px;
   width:96vw;
   height:80vh;
   z-index: -1;
