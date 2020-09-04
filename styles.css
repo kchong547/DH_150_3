@@ -47,6 +47,8 @@ main
   position: fixed;
   background-color: var(--background-p);
   transition: width 200ms ease;
+
+  float: right;
 }
 
 .navbar-nav
@@ -252,11 +254,27 @@ a:hover
   justify-content: center;
 }
 
-.animated
+.book
 {
   position: absolute;
-  top: 260px;
+  top: 270px;
 
   /*border: 5px solid #555;*/
   z-index: -1;
+}
+
+.stars
+{
+  position: absolute;
+  top: 0px;
+  width:96vw;
+  height:80vh;
+  z-index: -1;
+}
+
+.stars img
+{
+  width:100%;
+  height:auto;
+  max-height:100%;
 }
