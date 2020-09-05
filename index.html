@@ -5,9 +5,29 @@
     <meta charset='UTF-8'/>
     <title>Katherine's Storybook</title>
     <link href='styles.css' rel='stylesheet'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+         $('#navbar').load("nav-bar/index.html");
+      });
+    </script>
   </head>
   <body>
-    <div id='navbar'></div>
+    <!--<div id='navbar'></div>-->
+    <nav>
+      <div class='hamburger'>
+        <div class='line'></div>
+        <div class='line'></div>
+        <div class='line'></div>
+      </div>
+
+      <ul class='nav-links'>
+        <li><a href='#'>Home</a></li>
+        <li><a href='#'>Projects</a></li>
+        <li><a href='#'>Drawings</a></li>
+        <li><a href='#'>Connect</a></li>
+      </ul>
+    </nav>
 
     <main>
       <div class='content'>
@@ -24,11 +44,10 @@
           </div>
 
           <div class='stars'>
-            <img src='images/paper-lace_s.png'/>
+            <img src='images/paper-lace_s_2.png'/>
           </div>
         </div>
       </div>
-
 
       <div class='about'>
         <h1>A little about me...</h1>
@@ -52,6 +71,7 @@
           artistic ability. Take a look some of my recent <a href='art-design.html'>art</a> and <a href='projects.html'>projects</a>!
           In my free time, I also love being inspired by music, watching shows, reading books,
           or taking a nice walk outdoors.</p>
+
       </div>
 
       <div class='Connect'>
@@ -61,13 +81,6 @@
         <p>github</p>
       </div>
     </main>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function(){
-         $('#navbar').load('nav-bar/index.html');
-      });
-    <script src='myScript.js'></script>
-    </script>
+    <script src='app.js'></script>
   </body>
 </html>
