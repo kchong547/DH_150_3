@@ -1,7 +1,15 @@
-* {
+*
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: poppins;
+  font-size: 18px;
+  --transition-speed: 600ms;
+  --text-color-p: #EFC88B;
+  --text-color-p: #D5573B;
+  --background-p: #FFF;
+  --background-s: #7DAF9C;
 }
 
 body {

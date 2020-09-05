@@ -6,8 +6,10 @@
     <title>Katherine's Storybook</title>
     <link href='styles.css' rel='stylesheet'/>
     <script src='myScript.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
+    <div id="navbar"></div>
 
     <main>
       <div class='content'>
@@ -62,5 +64,10 @@
       </div>
     </main>
 
+    <script>
+      $(document).ready(function(){
+         $('#navbar').load('nav-bar/index.html');
+      });
+    </script>
   </body>
 </html>
