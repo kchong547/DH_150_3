@@ -12,6 +12,12 @@
   --sbackground-s: #7DAF9C;
 }
 
+/*need to hide/disable the horizontal scroll because it keeps showing up*/
+html
+{
+	overflow-x: hidden;
+}
+
 /*---------*/
 .nav-links {
   display: flex;
@@ -127,17 +133,6 @@ a:link, a:visited
 a:hover
 {
   text-decoration: underline;
-}
-
-.header
-{
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-
-  width: 100%;
-  padding: 15px;
-  background: #FFF;
 }
 
 .content
