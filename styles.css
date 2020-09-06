@@ -22,7 +22,7 @@
   align-items: center;
 
   position: fixed;
-  background: #7DAF9C;
+  background: #EFC88B;
 
   flex-direction: column;
   clip-path: clip-path: inset(0vw 0vh 0vh 100vw); /*retract from top, from right, from bottom, from left*/
@@ -214,10 +214,10 @@ a:hover
   width:100vw;
 }
 
-.about > p
+p
 {
-  padding: 0px 50px 30px 50px;  /* Top  Right  Bottom  Left */
-  padding-bottom: 25px;
+  /*padding: 0px 50px 30px 50px;  /* Top  Right  Bottom  Left */
+  padding-bottom: 30px;
 }
 
 h1
@@ -251,7 +251,7 @@ h1
 .scroll
 {
   background-color: #363946;
-  padding: 50px 70px;
+  padding: 70px 200px;
   color: #EFC88B;
 }
 
@@ -268,4 +268,38 @@ h1
 .three
 {
   background-image: url("images/Frame_3.png")
+}
+
+.clubs
+{
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.club-text
+{
+  padding: 45px 0px;
+}
+
+
+.article-image
+{
+  float: left;
+  margin-right: 30px;
+}
+
+hr.dashed {
+  border:none;
+  border-top: 5px dashed #D5573B;
+}
+
+#acm
+{
+  margin-bottom: 30px;
+}
+
+#exploretech
+{
+  margin-top: 30px;
 }
