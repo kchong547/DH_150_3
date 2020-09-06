@@ -95,6 +95,7 @@ body
   height:1200px;
   color: #E3BE83;
   background-color: #363946;
+  width:100vw;
 }
 
 body::-webkit-scrollbar
@@ -175,7 +176,7 @@ a:hover
   top: 33vh;
 
   /*border: 5px solid #555;*/
-  width:96vw;
+  width:100vw;
   height:80vh;
   z-index: -1;
 }
@@ -210,6 +211,7 @@ a:hover
   justify-content: center;
   align-items: left;
   text-align: left;
+  width:100vw;
 }
 
 .about > p
@@ -220,7 +222,50 @@ a:hover
 
 h1
 {
-  padding: 0px 50px 30px 50px;  /* Top  Right  Bottom  Left */
+  /* Top  Right  Bottom  Left */
   padding-bottom: 30px;
   font-size: 30px;
+}
+
+/*---background scrolling----*/
+.wrapper
+{
+  height: 30%;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+}
+
+.fixed
+{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  color: #eeeeee;
+  text-align: center;
+  display: table;
+}
+
+.scroll
+{
+  background-color: #363946;
+  padding: 50px 70px;
+  color: #EFC88B;
+}
+
+.one
+{
+  background-image: url("images/Frame_1.jpg");
+}
+
+.two
+{
+  background-image: url("images/frame_2_re.jpg")
+}
+
+.three
+{
+  background-image: url("images/Frame_3.png")
 }
