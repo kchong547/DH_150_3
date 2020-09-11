@@ -1,0 +1,28 @@
+.cloud-images
+{
+  max-width:100vw;
+  position: absolute;
+}
+
+.fill
+{
+  width: 100%;
+}
+
+#blue
+{
+  z-index: -3;
+}
+
+#person
+{
+  position: fixed;
+  top: 5px;
+  right: 38vw;
+  z-index: -2;
+}
+
+#pink
+{
+  z-index: -1;
+}

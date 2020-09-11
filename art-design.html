@@ -4,6 +4,7 @@
   <head>
     <meta charset='UTF-8'/>
     <title>Art and Design</title>
+    <link href='art-style.css' rel='stylesheet'/>
     <link href='nav-style.css' rel='stylesheet'/>
     <link href='constants.css' rel='stylesheet'/>
   </head>
@@ -16,13 +17,33 @@
       </div>
 
       <ul class='nav-links'>
-        <li><a href='#' onclick="return false;">Home</a></li>
+        <li><a href='index.html'>Home</a></li>
         <li><a href='projects.html'>Projects</a></li>
-        <li><a href='art-design.html'>Drawings</a></li>
+        <li><a href='art-design.html' onclick="return false;"">Drawings</a></li>
         <li><a href='#'>Connect</a></li>
       </ul>
     </nav>
 
+    <div class="rellax cloud-images" id="pink" data-rellax-speed="8">
+      <img class ="fill" src="images/clouds_small_pink.png">
+    </div>
+
+    <div class="rellax cloud-images" id="blue" data-rellax-speed="-4">
+      <img class ="fill" src="images/clouds_small_blue.png">
+    </div>
+
+    <div class="center">
+      <div class="rellax" id="person" data-rellax-speed="1">
+        <img src="images/person-fall-5.png">
+      </div>
+    </div>
+
     <script src='app.js'></script>
+    <script src="./javascripts/rellax.min.js"></script>
+    <script>
+      var rellax = new Rellax('.rellax', {
+        center: true
+      });
+    </script>
   </body>
 </html>
