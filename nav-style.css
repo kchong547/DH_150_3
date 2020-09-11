@@ -1,0 +1,75 @@
+/*---------*/
+.nav-links {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  background: #EFC88B;
+
+  flex-direction: column;
+  clip-path: clip-path: inset(0vw 0vh 0vh 100vw); /*retract from top, from right, from bottom, from left*/
+  -webkit-clip-path: inset(0vh 0vw 0vh 100vw);
+  transition: all 0.75s ease-out;
+  pointer-events:none;
+}
+
+.nav-links li a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.line {
+  width: 30px;
+  height: 5px;
+  background: #D5573B;
+  margin: 5px;
+}
+
+.hamburger {
+  position: fixed;
+  cursor: pointer;
+  right: 3%;
+  top: 5%;
+  transform: translate(-5%, -50%);
+  z-index: 2;
+}
+
+.nav-links.open {
+clip-path: inset(0vw 0vh 0vh 0vw);
+-webkit-clip-path: inset(0vw 0vh 0vh 0vw);
+pointer-events: all;
+}
+
+.nav-links li
+{
+  opacity: 0;
+}
+
+.nav-links li:nth-child(1)
+{
+  transition: all 0.5s ease 0.15s;
+}
+
+.nav-links li:nth-child(2)
+{
+  transition: all 0.5s ease 0.3s;
+}
+
+.nav-links li:nth-child(3)
+{
+  transition: all 0.5s ease 0.45s;
+}
+
+.nav-links li:nth-child(4)
+{
+  transition: all 0.5s ease 0.6s;
+}
+
+li.fade
+{
+  opacity: 1;
+}
