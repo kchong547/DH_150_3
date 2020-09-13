@@ -16,7 +16,12 @@ html
   /*border: 5px solid #555;*/
 }
 
-.content li
+h2
+{
+	font-size: 22px;
+}
+
+li
 {
   list-style: none;
   color: #E3BE83;
@@ -138,6 +143,12 @@ h1
 .text-box
 {
   padding: 70px 200px;
+
+}
+
+.box
+{
+	border: 5px solid #555;
 }
 
 .scroll
@@ -152,26 +163,30 @@ h1
 
 .two
 {
-  background-image: url("images/frame_2_re.jpg")
+  background-image: url("images/frame_2_re.jpg");
 }
 
 .three
 {
-  background-image: url("images/Frame_3.png")
+	background-image: url("images/cat_keyboard.jpg");
 }
 
-.clubs
+.four
+{
+  background-image: url("images/Frame_3.png");
+}
+
+.involvements
 {
   padding-left: 50px;
   display: flex;
   align-items: center;
 }
 
-.club-text
+.involvements-text
 {
   padding: 45px 0px;
 }
-
 
 .article-image
 {
@@ -184,12 +199,18 @@ hr.dashed {
   border-top: 5px dashed #D5573B;
 }
 
-#acm
+.top
 {
   margin-bottom: 30px;
 }
 
-#exploretech
+.middle
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.bottom
 {
   margin-top: 30px;
 }

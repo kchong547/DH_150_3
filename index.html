@@ -24,8 +24,8 @@
 
       <ul class='nav-links'>
         <li><a href='#' onclick="return false;">Home</a></li>
-        <li><a href='projects.html'>Projects</a></li>
-        <li><a href='art-design.html'>Drawings</a></li>
+        <!--<li><a href='index.html#projects'>Projects</a></li>-->
+        <li><a href='art-design.html' onclick="return false;">Drawings</a></li>
         <li><a href='#'>Connect</a></li>
       </ul>
     </nav>
@@ -34,9 +34,11 @@
       <div class='content'>
         <ul>
           <li id=content1>- Welcome to my storybook! -</li>
-          <li><a href='#'>Chapter 1: My Involvements</a></li>
-          <li><a href='#'>Chapter 2: Projects</a></li>
-          <li><a href='#'>Chapter 3: Art and Design</a></li>
+          <li><a href='#about-me'>Chapter 1: About Me</a></li>
+          <li><a href='#involvements-tag'>Chapter 2: My Involvements</a></li>
+          <li><a href='#projects'>Chapter 3: Projects</a></li>
+          <li><a href='#more-me'>Chapter 4: More About Me</a></li>
+          <li><a href='#connect'>Chapter 5: Connect with Me</a></li>
         </ul>
 
         <div class='images'>
@@ -58,21 +60,26 @@
     <div class="wrapper">
       <div class="fixed one"></div>
       <div class="scroll text-box">
-        <h1>A little about me...</h1>
+        <h1 id="about-me">A little about me...</h1>
 
         <p>My name is Katherine Chong and I'm a third year college student pursuing my B.S. in
           computer science. I'm extremely thankful to have the opportunity to be a part of the bruin family
           at the <a href='https://www.ucla.edu/' target="_blank">University of California Los Angeles.</a> </p>
 
+        <p>I think one of the most intriguing things about computer science is
+        its infinite possibilies and applications. I'm just starting to explore the vast world of computer
+        science but it's better late than never!
+        Currently, I've got a keen interest in web development, games, and backend development and I'm
+        excited to see where my interests take me!</p>
+
           <p>What motivates me is seeing my colorful imagination and thoughts being brought to life,
           whether it be through coding, drawing, and much more. I'm happiest when I'm blending
           my creative abilities and my interest in tech together to create something
-          new and exciting! I think one of the most intriguing things about computer science is
-          its infinite possibilies and applications, which makes it easy to blend with any interests.</p>
+          new and exciting!</p>
       </div>
       <div class="fixed two"></div>
       <div class="scroll text-box">
-        <h1>My involvements</h1>
+        <h1 id="involvements-tag">My involvements</h1>
         <p>Creating a positive impact wherever I go is a goal I hold dear to my heart.
            Being welcomed in a supportive community has brought me so much joy throughout my life.
            Throughout my time at UCLA, I've been fortunate to be able to contribute
@@ -81,9 +88,9 @@
            and <a href='http://www.exploretech.la/' target="blank">exploretech.la</a>.
            I'd love nothing more than to give back and help bring these communities to greater heights than before. </p>
 
-           <div class='clubs' id='acm'>
+           <div class='involvements top'>
              <img src='images/logo-acm.png' class='article-image'/>
-              <p class='club-text'><a href='https://www.uclaacm.com/' target="blank">ACM at UCLA</a>,
+              <p class='involvements-text'><a href='https://www.uclaacm.com/' target="blank">ACM at UCLA</a>,
               is the largest computer science student organization at UCLA.
               As the External Vice President for the 2020-2021 term, I maintain social media, finances,
               corporate relations, and cross-organization partnerships along with my 4 person team</p>
@@ -91,23 +98,86 @@
 
           <hr class="dashed" />
 
-          <div class='clubs' id='exploretech'>
+          <div class='involvements bottom'>
             <img src='images/exploretech.png' class='article-image'/>
-            <p class='club-text'><a href='http://www.exploretech.la/' target="blank">exploretech.la</a> is a student-led organization
+            <p class='involvements-text'><a href='http://www.exploretech.la/' target="blank">exploretech.la</a> is a student-led organization
             that aims to expose underserved Title 1 high school students in LAUSD to opportunities in technology.
             Last year, I was the External Director and this year I'm hoping to contribute as a general content member. </p>
           </div>
       </div>
+
       <div class="fixed three"></div>
       <div class="scroll text-box">
-        <h1>What do I do in my free time?</h1>
+        <h1 id="projects">Projects and Computers</h1>
+        <p>Sometimes I beep boop bop away on my computer. Here are a few things I've worked on:</p>
+
+          <div class='involvements top'>
+            <img src='images/website.png' class='article-image'/>
+            <ul>
+              <li><h2> This website! </h2></li>
+              <li></br></li>
+              <li><p>Besides the logos, all of the drawings and assets were created by me
+              with Clip Studio Paint and Figma. It was molded with HTML, CSS, JavaScript, time, and a lot of love.
+              My biggest inspiration was trying to find a balance between making a personal website and a drawing.
+              If anything, I wanted it to be a functional art piece that showed who I am.</p></li>
+            </ul>
+           </div>
+
+           <hr class="dashed" />
+
+           <div class='involvements middle'>
+             <img src='images/bubbles_transp.png' class='article-image'/>
+             <ul>
+               <li><h2> 49 Cleaners </h2></li>
+               <li></br></li>
+               <li><p>49 Cleaners is designed to be a order and delivery service for laundromat services.
+                 Its still in progress! So far, I've designed and implemented the front-end of web page with WordPress, HTML, CSS, and JavaScript.
+                 Currently I'm developing a secure log-in page with a database with PHP and SQL.</p></li>
+             </ul>
+           </div>
+
+           <hr class="dashed" />
+
+           <div class='involvements middle'>
+             <img src='images/afterDark_3.png' class='article-image'/>
+             <ul>
+               <li><h2> Night in the Diner </h2></li>
+               <li></br></li>
+               <li><p>Night in the Diner is an interactive, point and click game written in JavaScript.
+                      Overall, I led the artistic vision and product planning by producing bird's-eye view
+                      floor plans and coordinating color schemes. I also created various 3D objects in blender,
+                      produced object textures in Clip Studio Paint, and helped place items/maintain code with JavaScript </p></li>
+             </ul>
+           </div>
+
+           <hr class="dashed" />
+
+           <div class='involvements bottom'>
+             <img src='images/sensorTile.png' class='article-image'/>
+             <ul>
+               <li><h2> SensorTile Training </h2></li>
+               <li></br></li>
+               <li><p>A small project I did with where I trained a SensorTile to recognize
+                 6 different states using gyroscope and accelerometer sensors. The code to recognize
+                 states was written in C.</p></li>
+             </ul>
+            </div>
+
+          <h2>
+          <p></p>
+
+      </div>
+
+      <div class="fixed four"></div>
+      <div class="scroll text-box">
+        <h1 id="more-me">What do I do in my free time?</h1>
         <p>When I'm not occupied by academics or coding, I enjoy testing the limits of my
           artistic ability. I love mixing elements of fantasy and design to create unique characters and pieces.
           As someone with a very expressive face, incorporating emotions through facial expressions in my work is something I strive to do.
-          Take a look some of my recent <a href='art-design.html'>art</a> and <a href='projects.html'>projects</a>!</p>
 
           <p>You can often see me jamming out to music while I'm productive as it often influences my work, especially
-            my drawings. In my free time, I also watch shows, read books, or explore exciting places around my area with friends. </p>
+            my drawings. In my free time, I'm usually binging video games, TV shows, and books.
+            I'm also down to explore exciting food places around my area with friends; It only takes a few bites to get me out of my shell!</p>
       </div>
 
       <div class='divider' id='d-two'>
@@ -115,7 +185,7 @@
       </div>
 
       <div class='footer text-box'>
-        <h1> Let's connect! </h1>
+        <h1 id="connect"> Let's connect! </h1>
         <ul>
           <li><a href='https://www.facebook.com/katherine.chong.9256' target='_blank'><img src='images/f_logo_w.png'/></a></li>
           <li><a href='https://www.linkedin.com/in/kchong612/' target='_blank'><img src='images/linkedin-logo.png'/></a></li>
