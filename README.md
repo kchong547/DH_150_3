@@ -1,3 +1,3 @@
 # storybook
 
-Personal webpage if you want to get to know me!
+This is a project completed for DH150
