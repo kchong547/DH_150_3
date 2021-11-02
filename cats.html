@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Katherine's Storybook</title>
+    <link href='styles-drawing.css' rel='stylesheet'/>
+    <link href='nav-style.css' rel='stylesheet'/>
+    <link href='constants.css' rel='stylesheet'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+         $('#navbar').load("nav-bar/index.html");
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class='hamburger'>
+        <div class='line'></div>
+        <div class='line'></div>
+        <div class='line'></div>
+      </div>
+
+      <ul class='nav-links'>
+        <li><a href='index.html'>Home</a></li>
+        <!--<li><a href='index.html#projects'>Projects</a></li>-->
+        <!--<li><a href='art-design.html' onclick="return false;">Drawings</a></li>-->
+        <li><a href='drawings.html'>Drawings</a></li>
+        <li><a href='#'>Fun Pictures</a></li>
+      </ul>
+    </nav>
+
+    <div class='stars'>
+      <img src='images/paper-lace_s.png'/>
+    </div>
+
+    <div>
+      <h1 id="head-padding">My favorite Animal Content</h1>
+      <h2> I really enjoy collecting cute/chaotic photos of animals. Please send any my way! </h2>
+    </div>
+
+    <iframe class="vid-resize" src="https://www.youtube.com/embed/1feVtKzjTII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div>
+      <div class="row">
+        <div class="column">
+          <img src="images/cat1.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/cat2.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/cat3.jpeg" style="width:100%">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="images/cat4.png" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/cat5.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/cat6.jpeg" style="width:100%">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="images/cat7.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/cat8.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/cat9.jpeg" style="width:100%">
+        </div>
+      </div>
+      <img src='images/seal_hands.jpeg' class='img-resize'>
+    </div>
+
+
+      <div class='footer text-box'>
+        <h1 id="connect"> Let's connect! </h1>
+        <ul>
+          <li><a href='https://www.facebook.com/katherine.chong.9256' target='_blank'><img src='images/f_logo_w.png'/></a></li>
+          <li><a href='https://www.linkedin.com/in/kchong612/' target='_blank'><img src='images/linkedin-logo.png'/></a></li>
+          <!--<li><a href='https://github.com/kchong547' target='_blank'><img src='images/Github-Mark-W.png'/></a></li>-->
+        </ul>
+
+        <h4>This website was made as a project for DH150 in Fall 2021. Special thanks to Professor Wendy.</h4>
+      </div>
+
+    <script src='app.js'></script>
+  </body>
+</html>

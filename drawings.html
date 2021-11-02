@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Katherine's Storybook</title>
+    <link href='styles-drawing.css' rel='stylesheet'/>
+    <link href='nav-style.css' rel='stylesheet'/>
+    <link href='constants.css' rel='stylesheet'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+         $('#navbar').load("nav-bar/index.html");
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class='hamburger'>
+        <div class='line'></div>
+        <div class='line'></div>
+        <div class='line'></div>
+      </div>
+
+      <ul class='nav-links'>
+        <li><a href='index.html'>Home</a></li>
+        <!--<li><a href='index.html#projects'>Projects</a></li>-->
+        <!--<li><a href='art-design.html' onclick="return false;">Drawings</a></li>-->
+        <li><a href='#'>Drawings</a></li>
+        <li><a href='cats.html'>Fun Pictures</a></li>
+      </ul>
+    </nav>
+
+    <div class='stars'>
+      <img src='images/paper-lace_s.png'/>
+    </div>
+
+    <div>
+      <h1 id="head-padding">Welcome to the Art Gallery!</h1>
+      <h2>There's nothing I love more than collecting unfinished work and designing characters. Here are just a few of the works I've worked on: </h2>
+    </div>
+
+    <div>
+      <img src='images/bun.png' class='img-resize'>
+      <h2> Random Bunny Boy </h2>
+
+      <img src='images/cloud.png' class='img-horizontal'>
+      <img src='images/blehhh.png' class='img-resize'>
+      <img src='images/blink2.gif' class='img-resize'>
+      <h2> Girl with cloud, smoke, and star motifs I've recently had a lot of fun designing and drawing </h2>
+
+      <img src='images/ochaco.png' class='img-resize'>
+      <h2> Character from an anime </h2>
+
+    </div>
+
+      <div class='footer text-box'>
+        <h1 id="connect"> Let's connect! </h1>
+        <ul>
+          <li><a href='https://www.facebook.com/katherine.chong.9256' target='_blank'><img src='images/f_logo_w.png'/></a></li>
+          <li><a href='https://www.linkedin.com/in/kchong612/' target='_blank'><img src='images/linkedin-logo.png'/></a></li>
+          <!--<li><a href='https://github.com/kchong547' target='_blank'><img src='images/Github-Mark-W.png'/></a></li>-->
+        </ul>
+
+        <h4>This website was made as a project for DH150 in Fall 2021. Special thanks to Professor Wendy.</h4>
+      </div>
+
+    <script src='app.js'></script>
+  </body>
+</html>

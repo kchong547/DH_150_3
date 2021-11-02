@@ -16,9 +16,17 @@ html
   /*border: 5px solid #555;*/
 }
 
+#head-padding
+{
+  padding-top: 350px;
+  padding-bottom: 100px;
+}
+
 h2
 {
 	font-size: 22px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 li
@@ -37,6 +45,43 @@ li
 {
   display: flex;
   justify-content: center;
+}
+
+.img-resize
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 500px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.vid-resize
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 560px;
+  height: 315px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.img-horizontal
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1000px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .divider
@@ -116,6 +161,7 @@ h1
   /* Top  Right  Bottom  Left */
   padding-bottom: 30px;
   font-size: 30px;
+  text-align: center;
 }
 
 h4
@@ -237,4 +283,17 @@ hr.dashed {
   display: flex;
   justify-content: space-around;
   list-style: none;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
